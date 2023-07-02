@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-self: center;
+  max-width: 800px;
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  /* border:2px solid black; */
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem rgb(101, 90, 92));
+}

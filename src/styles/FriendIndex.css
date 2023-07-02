@@ -4,11 +4,12 @@ ul {
   flex-wrap: wrap;
 }
 
-li {
-
-}
-
 h2 {
   display: flex;
   justify-content: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 375px;
 }

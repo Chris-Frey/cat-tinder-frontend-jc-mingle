@@ -23,7 +23,7 @@ const FriendShow = ({friends, deleteFriend}) => {
     <Card className="my-2">
     <CardImg
       alt="Card image cap"
-      src="https://picsum.photos/500/500"
+      src={singleFriend.img}
       style={{
         height: 500,
         width: 500
@@ -50,12 +50,14 @@ const FriendShow = ({friends, deleteFriend}) => {
       <Button onClick = {handleDelete}>
         Delete Profile
       </Button>
-    <NavLink to={`/friendEdit/${singleFriend.id}`}>
- 
+    
       <Button>
+      <NavLink to={`/friendEdit/${singleFriend.id}`}>
+      </NavLink>
         Edit {singleFriend.name}'s Profile
+    
       </Button>
-    </NavLink>
+
   </Card>
   </>
   )
